@@ -34,6 +34,6 @@ defmodule TLV do
   @doc """
   TODO
   """
-  @spec decode(TLV.t) :: binary
+  @spec encode(TLV.t) :: binary
   defdelegate encode(tlv), to: TLVEncoder
 end
